@@ -1,1 +1,100 @@
-teste
+{
+  "Version": "2.0.0",
+  "ReleaseNotes": "UPDATE ONLINE @serginhovsc",
+  "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/Atualizarapplite",
+  "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/sms",
+  "EmailFeedback": "contato@sergiohost.com.br",
+  "UrlContato": "https://t.me/serginhovsc",
+  "UrlTermos": "https://raw.githubusercontent.com/VENHABRABO/CONNECTA4G/main/TERMOS%20DE%20USO.html",
+  "Udp": [
+    {
+      "Porta": "7295"
+    },
+    {
+      "Porta": "7296"
+    },
+    {
+      "Porta": "7297"
+    },
+    {
+      "Porta": "7298"
+    },
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "SERVIDOR (BR01) ONLINE",
+      "TYPE": "Navegacao",
+      "FLAG": "br.png",
+      "ServerIP": "br.brt1.ml",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR (BR02) ONLINE",
+      "TYPE": "Jogos",
+      "FLAG": "br.png",
+      "ServerIP": "br.brt1.ml",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO - CLARO - TIM - OI",
+      "FLAG": "vivo",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: br.brt1.ml[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO DIRECT",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.brt1.ml[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
+    {
+      "Name": "TIM - VIVO",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br.brt1.ml [crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "CLARO SEM PROMOÇÃO",
+      "FLAG": "claro",
+      "Payload": "GET sni://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: br.brt1.ml[crlf]X-Forward-Host: och.atecubanos.tk[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI - VIVO",
+      "FLAG": "oi",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: br.brt1.ml[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
