@@ -74,7 +74,7 @@
     {
       "Name": "CLARO SSL NOVO",
       "FLAG": "claro",
-      "Payload": "GET GET ws://content.akross.com.br HTTP/1.1\nHost: br.brt1.ml\nUpgrade: ws\n\n",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1\nHost: br.brt1.ml\nUpgrade: ws\n\n",
       "SNI": "content.akross.com.br",
       "TlsIP": "content.akross.com.br",
       "ProxyIP": "",
