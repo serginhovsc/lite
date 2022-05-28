@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/Atualizarapplite",
   "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/sms",
@@ -33,7 +33,7 @@
       "TYPE": "Premium",
       "FLAG": "br.png",
       "ServerIP": "4g1.brt1.ml",
-      "CheckUser": "http://177.67.82.244:6899/checkUser",
+      "CheckUser": "http://val.brt1.ml:6899/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
