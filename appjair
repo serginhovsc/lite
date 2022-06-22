@@ -1,1 +1,65 @@
-app
+{
+  "Version": "1.0.1",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/appjair",
+  "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/smsjair",
+  "EmailFeedback": "contato@sergiohost.com.br",
+  "UrlContato": "https://api.whatsapp.com/send?phone=5547996973438&text=Ola%2C%20gostaria%20de%20saber%20sobre%20o%20aplicativo%20J%20net",
+  "UrlTermos": "https://grupoapps.com.br/politicas.html",
+  "CheckUser": "true",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7295"
+    },
+    {
+      "Porta": "7296"
+    },
+    {
+      "Porta": "7297"
+    },
+    {
+      "Porta": "7298"
+    },
+    {
+      "Porta": "7299"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "BR01",
+      "TYPE": "Premium",
+      "FLAG": "br.png",
+      "ServerIP": "4g1.brt1.ml",
+      "CheckUser": "http://val.brt1.ml:6899/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO BR",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Tlsws"
+    },
+        {
+      "Name": "TIM BR",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    }
+  ]
+}
