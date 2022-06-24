@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.2",
+  "Version": "2.0.3",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/Atualizarapplite",
   "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/sms",
@@ -42,11 +42,11 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO WS",
+      "Name": "VIVO Novo 1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "104.18.7.80",
+      "TlsIP": "104.24.10.16",
       "ProxyIP": "",
       "ProxyPort": "80",
       "Info": "Tlsws"
