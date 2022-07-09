@@ -1,8 +1,8 @@
 {
-  "Version": "0.0.05",
+  "Version": "0.0.06",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/testeinterno",
-  "Sms": "",
+  "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/smstesteinterno",
   "EmailFeedback": "https://fast.com",
   "UrlContato": "",
   "UrlTermos": "",
