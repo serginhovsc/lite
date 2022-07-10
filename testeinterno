@@ -1,5 +1,5 @@
 {
-  "Version": "0.0.09",
+  "Version": "0.0.10",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/testeinterno",
   "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/smstesteinterno",
@@ -32,7 +32,7 @@
       "Name": "BRT1 | PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "brt1.ml",
+      "ServerIP": "d1qr9j69pgr8fx.cloudfront.net",
       "CheckUser": "http://Val.brt1.ml/6899/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
