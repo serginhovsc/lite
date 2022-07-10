@@ -1,5 +1,5 @@
 {
-  "Version": "0.0.08",
+  "Version": "0.0.09",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/testeinterno",
   "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/smstesteinterno",
@@ -27,13 +27,13 @@
       "Porta": "7299"
     }
   ],
-  "Servers": [
+"Servers": [
     {
-      "Name": "TESTE OFF",
-      "TYPE": "Premium",
+      "Name": "BRT1 | PLUS",
+      "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "4g1.brt1.ml",
-      "CheckUser": "http://val.brt1.ml:6899/checkUser",
+      "ServerIP": "brt1.ml",
+      "CheckUser": "http://Val.brt1.ml/6899/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -42,14 +42,14 @@
   ],
   "Networks": [
     {
-   "Name": "TESTE DESATIVADO",
-   "FLAG": "vivo",
-      "Payload": "GET wss://unpJJJJkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "unpkg.com",
-      "TlsIP": "172.676537.165.43",
-      "ProxyIP": "",
-      "ProxyPort": "4439990",
-      "Info": "Tlsws"
+      "Name": "🟣VIVO TODOS OS DDD",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d1qr9j69pgr8fx.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "live.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     }
   ]
 }
