@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.5",
+  "Version": "1.0.6",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/appjair",
   "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/smsjair",
@@ -302,15 +302,45 @@
    "Info": "Tlsws"
   },
   {
-   "Name": "❤️CLARO SPORT",
-   "FLAG": "claro",
-   "Payload": "wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: brt1.ml:443[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-   "SNI": "4.icanhazip.com",
-   "TlsIP": "4.icanhazip.com",
-   "ProxyIP": "",
-   "ProxyPort": "443",
-   "Info": "Tlsws"
-  },
+      "Name": "🔴CLARO VIDA",
+      "FLAG": "claro",
+      "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
+      "ProxyIP": "4.icanhazip.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔴CLARO CHEIRO",
+      "FLAG": "claro",
+      "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "api.new.livestream.com",
+      "TlsIP": "api.new.livestream.com",
+      "ProxyIP": "api.new.livestream.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔴CLARO BEIJO ",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "www.icanhazip.com",
+      "TlsIP": "www.icanhazip.com",
+      "ProxyIP": "www.icanhazip.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🔴CLARO AMOR",
+      "FLAG": "claro",
+      "Payload": "GET wss://content.akross.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: VEM_BRABO[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "content.akross.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
   {
       "Name": "💛OI [SSL 1]",
       "FLAG": "oi",
