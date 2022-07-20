@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/appjair",
   "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/smsjair",
@@ -41,7 +41,17 @@
     }
   ],
   "Networks": [
-      {
+     {
+      "Name": "💜VIVO [ DDD 11,31,33,34,42,51,62,81,92]",
+      "FLAG": "vivo.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.21.11.51",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+ {
    "Name": "💜VIVO CLOUD 1",
    "FLAG": "vivo",
       "Payload": "GET wss://unpkg.com// HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
