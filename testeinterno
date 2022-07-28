@@ -1,5 +1,5 @@
 {
-  "Version": "0.0.13",
+  "Version": "0.0.14",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/serginhovsc/lite/main/testeinterno",
   "Sms": "https://raw.githubusercontent.com/serginhovsc/lite/main/smstesteinterno",
@@ -29,25 +29,25 @@
   ],
 "Servers": [
     {
-      "Name": "BRT13 | PLUS",
+      "Name": "BRT web| PLUS",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "brt1.ml",
       "CheckUser": "http://Val.brt1.ml/6899/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
+      "USER": "interno",
+      "PASS": "interno"
     }
   ],
   "Networks": [
     {
-      "Name": "🟣VIVO TODOS OS DDD",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: d1qr9j69pgr8fx.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Name": "💜VIVO WEB💜",
+      "FLAG": "vivo.png",
+      "Payload": "GET / HTTP/1.1[crlf]Host: tayyho0sx5.map.azionedge.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "13.35.118.37",
+      "TlsIP": "tayyho0sx5.map.azionedge.net",
+      "ProxyIP": "tayyho0sx5.map.azionedge.net",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
